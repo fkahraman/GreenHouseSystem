@@ -1001,10 +1001,10 @@ int main(void)
 		gasDegeri = AnalogReadGas();
 		toprakDegeri = AnalogReadEarth();
 		
-		//sprintf(STR, "%d", gasDegeri);
+		// sprintf(STR, "%d", gasDegeri);
 		
-		//SendUartString(UART0_BASE, STR);
-		//SendUartString(UART0_BASE, "\n");
+		// SendUartString(UART0_BASE, STR);
+		// SendUartString(UART0_BASE, "\n");
 		
 		qua_ui = QualityFilter(gasDegeri);
 		earth_ui = EarthHumFilter(toprakDegeri);
