@@ -1,0 +1,19 @@
+Dependencies for Project 'blinky', Target 'blinky': (DO NOT MODIFY !)
+F (.\blinky.c)(0x5B1A34E6)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\.. --c99-I.\RTE\_blinky-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="523" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\blinky.o --omf_browse .\rvmdk\blinky.crf --depend .\rvmdk\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F64D08)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F64D08)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F64D08)
+I (..\..\..\..\inc/hw_ints.h)(0x5804BF5C)
+I (..\..\..\..\inc/hw_memmap.h)(0x5804BF5C)
+I (..\..\..\..\inc/hw_types.h)(0x5804BF5C)
+I (..\..\..\..\driverlib/gpio.h)(0x58AD2D00)
+I (..\..\..\..\driverlib/interrupt.h)(0x5804BF4E)
+I (..\..\..\..\driverlib/pin_map.h)(0x5804BF4E)
+I (..\..\..\..\driverlib/sysctl.h)(0x58AD2CFA)
+I (..\..\..\..\driverlib/uart.h)(0x5AAD1E84)
+I (..\..\..\..\driverlib/adc.h)(0x5804BF4E)
+F (.\startup_rvmdk.S)(0x5AF728D3)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_blinky-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x58BFEC10)()
+F (.\readme.txt)(0x5804BF56)()
